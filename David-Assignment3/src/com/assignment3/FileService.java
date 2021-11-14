@@ -14,7 +14,7 @@ public class FileService {
 		User[] users = new User[4];
 		BufferedReader iphoneReader = null;
 		try {
-			iphoneReader = new BufferedReader(new FileReader("src/data.txt"));
+			iphoneReader = new BufferedReader(new FileReader("data.txt"));
 			int i = 0;
 			while((line = iphoneReader.readLine())!= null) {
 				
